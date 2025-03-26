@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+.font-bigsh{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 20px;
+    background-color: skyblue;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #3D1E8F;
+    border-radius: 20px;
+}
