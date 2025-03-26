@@ -56,7 +56,7 @@ const Manager = () => {
     });
 
 
-    console.log(updated);
+    // console.log(updated);
   }
 
 
@@ -65,7 +65,7 @@ const Manager = () => {
   const ref = useRef(null)
   const ShowPassword = () => {
     passwordref.current.type = "text"
-    console.log(ref.current.src);
+    // console.log(ref.current.src);
 
     if (ref.current.src.includes('https://cdn.lordicon.com/knitbwfa.json')) {
       ref.current.src = "https://cdn.lordicon.com/wdbwxkvh.json"

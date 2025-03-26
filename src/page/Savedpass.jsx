@@ -18,13 +18,13 @@ const Savedpass = () => {
     });
     const [isEditing, setIsEditing] = useState(false);
 
-    console.log(Password);
+    // console.log(Password);
 
     const [Aname, setAname] = useState('IDLE')
 
     const handleDelete = (id) => {
         console.log("Deleting the password of  this id : ", id);
-        const ans = confirm("Are you sure you want to delete this password?");
+        // const ans = confirm("Are you sure you want to delete this password?");
         if (ans) {
             const updated = Password.filter((item) => item.id !== id);
             setPassword(updated);
